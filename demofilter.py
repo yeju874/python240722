@@ -12,3 +12,7 @@ iterL = filter(getBiggerThan20,lst)
 for item in iterL:
     print("Item:{0}".format(item))
 
+print("---람다함수사용---")
+iterL = filter(lambda x:x>20, lst)
+for item in iterL:
+    print("Item:{0}".format(item))
